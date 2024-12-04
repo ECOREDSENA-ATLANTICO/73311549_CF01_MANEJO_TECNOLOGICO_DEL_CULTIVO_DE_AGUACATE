@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Estrategia de producción y propagación del aguacate',
+    descripcionCurso:
+      'Este componente se centra en la planificación de la producción de aguacate, alineando las estrategias con los requerimientos del mercado y las normas técnicas vigentes. Incluye la producción de material de propagación vegetal en viveros, aplicando parámetros técnicos para garantizar la calidad. A través de estas prácticas, se busca optimizar la producción y asegurar que los agricultores estén preparados para satisfacer las demandas del mercado de manera sostenible y eficiente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,26 +40,14 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Generalidades del cultivo de aguacate',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
-        nombreRuta: 'tema2',
+        nombreRuta:
+          'Selección del material vegetal y manejo de vivero para el cultivo de aguacate',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
       },

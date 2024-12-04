@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **sena-base-2021 v6.0.5 - CF01_73311549 MANEJO TECNOLOGICO DEL CULTIVO DE AGUACATE **
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/73311549_CF01_MANEJO_TECNOLOGICO_DEL_CULTIVO_DE_AGUACATE/#/](https://ecoredsena-atlantico.github.io/73311549_CF01_MANEJO_TECNOLOGICO_DEL_CULTIVO_DE_AGUACATE/#/)
 
 #
 
