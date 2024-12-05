@@ -99,31 +99,101 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Generalidades del cultivo de aguacate.',
+      referencia: 'Asociado Asproagricol.',
+      tipo: 'PDF',
+      link:
+        'https://ccoa.org.co/wp-content/uploads/2023/02/Cartilla-aguacate-2.pdf ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Generalidades del cultivo de aguacate',
+      referencia: 'Asociado SENA',
+      tipo: 'Video',
+      descarga:
+        'https://sioc.minagricultura.gov.co/Aguacate/Normatividad/Paquete%20Tecnologico%20Aguacate.pdf ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Raíz',
+      significado:
+        'La raíz es la parte de una planta que crece bajo tierra, anclándola al suelo y absorbiendo agua y nutrientes esenciales para su desarrollo y supervivencia. También almacena energía.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Tallo',
+      significado:
+        'El tallo es la parte de la planta que sostiene las hojas, flores y frutos, proporcionando soporte estructural. Facilita el transporte de agua y nutrientes entre raíces y partes aéreas.',
+    },
+    {
+      termino: 'Hojas',
+      significado:
+        'Las hojas son estructuras verdes de las plantas que realizan la fotosíntesis, convirtiendo luz solar en energía. Además, participan en la respiración y transpiración, y son esenciales para el crecimiento vegetal.',
+    },
+    {
+      termino: 'Ramificaciones',
+      significado:
+        'Las ramificaciones son divisiones o extensiones de una estructura principal, como un tallo o una raíz, que permiten el crecimiento y la expansión de la planta, facilitando la producción de hojas y flores.',
+    },
+    {
+      termino: 'Inflorescencias',
+      significado:
+        'Las inflorescencias son agrupaciones de flores en una planta, organizadas de diversas formas. Estas estructuras pueden variar en tamaño y forma, y son clave para la reproducción y producción de frutos.',
+    },
+    {
+      termino: 'Flores',
+      significado:
+        'Las flores son estructuras reproductivas de las plantas que contienen órganos masculinos y femeninos. Su función principal es la polinización, y son fundamentales para la formación de frutos y semillas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Biospace (2024).',
+      link:
+        'https://www.biospace.es/10-consejos-para-cultivar-aguacate-en-maceta-y-que-de-fruto/',
+    },
+    {
+      referencia:
+        'Cabezas, C., Hueso, J. y Cuevas, J. (2003). Identificación y descripción de los estados fenológicos-tipo del aguacate (Persea americana Mill). Almería, España: Universidad de Almería',
+      link: '',
+    },
+    {
+      referencia:
+        'Corpoica. (2008). Tecnología para el cultivo de aguacate. Consultado el 15 de julio de 2014, en ',
+      link: '',
+    },
+    {
+      referencia:
+        'Díaz, D. (2009). Manual técnico del cultivo de aguacate. Bogotá, Colombia: Produmedios',
+      link: '',
+    },
+    {
+      referencia:
+        'Frutas frescas. Aguacate. Variedades mejoradas. Especificaciones (NTC 5209). (2003, 22 de octubre). Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC), 2004, 31 de julio',
+      link: '',
+    },
+    {
+      referencia:
+        'Holdridge, L. (1987). Ecología basada en zonas de vida. San José, Costa Rica: Editorial IICA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Infoagro. (s.f.). El cultivo del aguacate (1ª parte). Consultado el 15 de julio de 2014, en',
+      link: 'http://www.infoagro.com/frutas/frutas_tropicales/aguacate',
+    },
+    {
+      referencia:
+        'Tamayo, P. (1994). Integración de métodos de control de las enfermedades de las plantas: guía ilustrada. Rionegro, Antioquia: Corpoica. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Tamayo, P. (2005). Reconocimiento de enfermedades del aguacate en Colombia. Medellín, Colombia: Facultad Nacional de Agronomía. ',
+      link: '',
+    },
+    {
+      referencia:
+        '<em>Whiley</em>, A., Schaffer, B. y <em>Wolstenholme</em>, B. (2007). El Palto: botánica, producción y usos. Valparaíso, Chile: Ediciones Universitarias de Valparaíso.',
       link: '',
     },
   ],
