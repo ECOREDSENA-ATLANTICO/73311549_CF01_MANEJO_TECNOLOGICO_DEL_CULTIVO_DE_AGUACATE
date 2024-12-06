@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Estrategia de producción y propagación del aguacate',
     descripcionCurso:
       'Este componente se centra en la planificación de la producción de aguacate, alineando las estrategias con los requerimientos del mercado y las normas técnicas vigentes. Incluye la producción de material de propagación vegetal en viveros, aplicando parámetros técnicos para garantizar la calidad. A través de estas prácticas, se busca optimizar la producción y asegurar que los agricultores estén preparados para satisfacer las demandas del mercado de manera sostenible y eficiente.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal-.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -45,10 +45,10 @@ export default {
       },
 
       {
-        nombreRuta:
-          'Selección del material vegetal y manejo de vivero para el cultivo de aguacate',
+        nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Selección del material vegetal y manejo de vivero para el cultivo de aguacate',
         desarrolloContenidos: true,
       },
     ],

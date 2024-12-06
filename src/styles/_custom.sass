@@ -40,3 +40,103 @@
 .fnd1
   .banner-interno__fondo
     background-image: url(../assets/curso/portada/fondo-banner.svg)  !important    
+
+.fnd-1
+  background-color: #238B7A !important
+
+.fnd-2  
+  position: relative 
+
+  
+  &::before
+    content: ''
+    position: absolute
+    background-image: url('../assets/curso/temas/tema2/fnd-2.png'), linear-gradient(90deg, #A4D6F8, #eef7fe)
+    background-position: center, center
+    background-size: 98% 100%, cover
+    background-repeat: no-repeat, no-repeat
+    border-radius: 25px
+    z-index: 0
+    right: 12%
+    width: 80%
+    height: 65%
+    padding: 0.5rem
+    @media (max-width: 576px) 
+      right: 3%
+      width: 86%
+  h4
+    z-index: 3 !important
+  img
+    position: relative 
+    z-index: 1
+    margin-right: 0.5rem 
+
+  .tit-2
+    position: relative 
+    z-index: 2 !important 
+    font-size: 1.25rem 
+    font-weight: bold 
+  &::after
+    content: ''
+    position: absolute
+    z-index: 5
+    right: 7rem
+    top: 0.7em
+    width: 8px
+    height: 9px
+    border-radius: 5rem
+    background-color: #FD6F2F
+
+.fnd-3
+  background-color: #FEEFE8
+  border-right: 0.9rem solid #fff
+  &-1
+    background-color: #EEF7FE
+  &-2
+    background-color: #fff
+  &-3
+    background-color: #DEF0FD    
+    border-radius: 1rem
+
+  &-4
+    background-color: #F6FAEA
+    &.acordion__activo    
+        background-color: #EEF7FE     
+        .acordion__accion__btn--a 
+            background-color: #E1EF97
+    .acordion__accion__btn--a 
+        background-color: #E1EF97    
+  &-5
+    background-color: #FEEFE8        
+.fnd-4
+  background: url('../assets/curso/temas/tema1/fnd-1.png')
+  background-position: center
+  background-repeat: no-repeat    
+  background-size: cover
+  border-radius: 0.8rem
+  &-1
+    background-color: #fff
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt 
+    background-color: #59B4F1
+    background-image: url(../assets/curso/temas/tema1/arrow.svg)
+    border: 1px solid #59B4F1
+
+  .slyder-a__bullets__item 
+    background-color: #FD6F2F
+    border: 1px solid #FD6F2F    
+
+.img-infografica__item, .img-infografica-b__item 
+    width: 3.3%    
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after
+  background-color: #fff    
+.t-b
+  text-align: right !important
+  margin-bottom: 0
+  color: #DEF0FD
+.tbl
+  td,th
+    background-color: #fff
+    border: 2px solid #56681C !important
+  &-c
+    td,th
+      text-align: center
