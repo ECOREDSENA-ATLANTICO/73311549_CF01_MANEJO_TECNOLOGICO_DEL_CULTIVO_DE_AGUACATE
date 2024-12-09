@@ -7,8 +7,7 @@
         span 1
       h1 Generalidades del cultivo de aguacate
       
-    
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5.fnd-1
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5.fnd-1(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.png')})`}"
       )
@@ -18,14 +17,14 @@
     Separador
 
     .row.justify-content-start.align-items-center.mb-4(data-aos="zoom-in")
-      .col-xl-5.col-lg-7.col-md-10
+      .col-xl-6.col-lg-7.col-md-10
         .row.pe-lg-3.mb-2.fnd-2.align-items-center
           .col-auto.pe-2
             img(src="@/assets/curso/temas/tema2/img-2.svg", alt="Icono")
           .col.px-0
             h4.mb-0.tit-2 Aspectos generales del aguacate
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10  
         .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
           .col-auto.pe-2
@@ -48,7 +47,7 @@
           .col.px-0
             h4.mb-0 Taxonomia
         .row.justify-content-center.align-items-strech
-          .col-lg-4
+          .col-lg-4.col-md-6.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema1/img-4.png')
           .col-lg-4.fnd-3.p-4
@@ -69,9 +68,9 @@
             img(src="@/assets/curso/temas/tema2/img-2.svg", alt="Icono")
           .col.px-0
             h4.mb-0.tit-2 Descripción botánica
-    p Esta planta se caracteriza por tener un tronco vigoroso y grueso, que en condiciones naturales puede sobrepasar los 10 metros de altura, gran ramificación, copa amplia con hojas perennifolias. Es una planta polimórfica, su sistema radicular es amplio y superficial, presenta hojas brillantes de color verde en la mayoría de las variedades y flores perfectas en racimos subterminales que se abren en dos momentos para exponer los órganos femeninos y masculinos en diferentes tiempos, evitando así la autofecundación:
+    p(data-aos="zoom-in") Esta planta se caracteriza por tener un tronco vigoroso y grueso, que en condiciones naturales puede sobrepasar los 10 metros de altura, gran ramificación, copa amplia con hojas perennifolias. Es una planta polimórfica, su sistema radicular es amplio y superficial, presenta hojas brillantes de color verde en la mayoría de las variedades y flores perfectas en racimos subterminales que se abren en dos momentos para exponer los órganos femeninos y masculinos en diferentes tiempos, evitando así la autofecundación:
 
-    .row.justify-content-center.align-items-center.fnd-4.p-lg-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.fnd-4.p-lg-4.p-2(data-aos="fade-right")
       .tarjeta.tarjeta--azul.p-4.fnd-4-1
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center.px-lg-4.px-md-1
@@ -85,7 +84,7 @@
           .row.justify-content-center.align-items-center.px-lg-4.px-md-1
             .col-xl-3
               h5 Ramificaciones
-              p Esta especie cuenta con ramas gruesas y una gran cantidad de ramas delgadas de color verde en las puntas así:   
+              p Esta especie cuenta con ramas gruesas y una gran cantidad de ramas delgadas de color verde en las puntas así.
               
             .col-xl-9.mb-0.mb-md-4.col-md-6
               figure
@@ -94,7 +93,7 @@
           .row.justify-content-center.align-items-center.px-lg-4.px-md-1
             .col-xl-6
               h5 Inflorescencias
-              p Las flores están agrupadas en inflorescencias de tallo largo, que en número hasta de 10 crecen en las axilas, presentando grupos integrados que contienen hasta 450 flores, que pueden madurar en el transcurso de seis meses, de acuerdo a la temperatura y la variedad. Cada árbol puede llegar a producir hasta un millón de flores y solo entre el 0.01% el 1% se transforma en fruto, por la abscisión de numerosas flores y frutos pequeños en desarrollo. A mayor floración menor porcentaje de cuajado. (Corpoica, 2008, p. 19)
+              p Las flores están agrupadas en inflorescencias de tallo largo, que en número hasta de 10 crecen en las axilas, presentando grupos integrados que contienen hasta 450 flores, que pueden madurar en el transcurso de seis meses, de acuerdo a la temperatura y la variedad. Cada árbol puede llegar a producir hasta un millón de flores y solo entre el 0.01% el 1% se transforma en fruto, por la abscisión de numerosas flores y frutos pequeños en desarrollo. A mayor floración menor porcentaje de cuajado (Corpoica, 2008, p. 19).
    
               
             .col-xl-6.mb-0.mb-md-4.col-md-6
@@ -128,7 +127,7 @@
           .row.justify-content-center.align-items-center.px-lg-4.px-md-1
             .col-xl-6
               h5 Fruto
-              p El fruto del aguacate posee una sola semilla, que varía de formas según la raza (redondo, alargado, forma de botella, entre otras), su cáscara puede ser lisa o rugosa con coloraciones verde y violáceo. La consistencia de la pulpa es blanda de color blanco amarillento, que pasa a verde en la cercanía de la cáscara. La maduración del fruto solo se presenta cuando este se retira del árbol. El tamaño varía según la variedad y tiene un peso promedio entre 200 y 2.500 gramos   
+              p El fruto del aguacate posee una sola semilla, que varía de formas según la raza (redondo, alargado, forma de botella, entre otras), su cáscara puede ser lisa o rugosa con coloraciones verde y violáceo. La consistencia de la pulpa es blanda de color blanco amarillento, que pasa a verde en la cercanía de la cáscara. La maduración del fruto solo se presenta cuando este se retira del árbol. El tamaño varía según la variedad y tiene un peso promedio entre 200 y 2.500 gramos.   
               
             .col-xl-6.mb-0.mb-md-4.col-md-6
               figure
@@ -143,7 +142,7 @@
             h4.mb-0.tit-2 Razas de aguacate
 
     p.mb-4 En esta especie se tienen tres razas → Mexicana, Guatemalteca y Antillana:
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 1. 
@@ -156,11 +155,11 @@
               img(src='@/assets/curso/temas/tema1/img-12.png', alt='Texto que describa la imagen')
               figcaption Fuente: Sena (2024).
 
-          .tarjeta.fnd-3-2.p-4( x="28.1%" y="74%" numero="2")
+          .tarjeta.fnd-3-2.p-4(x="28.1%" y="74%" numero="2")
             p.mb-0 <b>Patrones de la raza:</b> esta raza muestra incompatibilidad para injertarse con la Antillana y es susceptible a suelos calcáreos. Su explotación en Colombia es limitada por la alternancia en la producción. Algunas variedades de la raza Mexicana incluyen Puebla, Duke, Gottfried, Zutano, Bacon y Topa-Topa.          
             h1.t-b 02
           .tarjeta.fnd-3-2.p-4(x="73.8%" y="63.3%" numero="1")
-            p.mb-0 <b>Hojas aguacate mexicano:</b> esta especie se caracteriza por sus hojas alargadas y oscuras, con glándulas que emiten un distintivo aroma a anís. Los brotes son vellosos y la flor es verde claro. Su fruto, pequeño y semi-alargado, destaca por su alto contenido de grasa (30%) y bajo en azúcar (2%).
+            p.mb-0 <b>Hojas aguacate mexicano:</b> esta especie se caracteriza por sus hojas alargadas y oscuras, con glándulas que emiten un distintivo aroma a anís. Los brotes son vellosos y la flor es verde claro. Su fruto, pequeño y semi-alargado, destaca por su alto contenido de grasa (30 %) y bajo en azúcar (2 %).
             h4.t-b 01
 
         .titulo-sexto.color-acento-contenido
@@ -176,7 +175,7 @@
             p.mb-0 <b>Hojas del aguacate guatemalteco:</b> Sus hojas son grandes y verdes oscuras, sin olor. Los tallos de los brotes jóvenes son rojizos. Los frutos, de color verde opaco a rojo o morado, son medianos (125-250 gramos), con cáscara gruesa y rugosa, lo que facilita su manejo poscosecha y resistencia a plagas.
             h4.t-b 01
           .tarjeta.fnd-3-2.p-4(x="39.4%" y="37%" numero="2")
-            p.mb-0 <b>Contenido de la raza guatemalteca:</b> esta raza tiene un contenido medio de aceites del 15% y pulpa fibrosa en algunas variedades. Las semillas son grandes y se adhieren bien a la pulpa. El tiempo de floración a cosecha es de aproximadamente 15 meses. Variedades incluyen <i>Hass, Reed, Edranol</i> y <i>Pinkerton</i>.
+            p.mb-0 <b>Contenido de la raza guatemalteca:</b> esta raza tiene un contenido medio de aceites del 15 % y pulpa fibrosa en algunas variedades. Las semillas son grandes y se adhieren bien a la pulpa. El tiempo de floración a cosecha es de aproximadamente 15 meses. Variedades incluyen <i>Hass, Reed, Edranol</i> y <i>Pinkerton</i>.
             h4.t-b 02
           .tarjeta.fnd-3-2.p-4(x="29.7%" y="73.5%" numero="3")
             p.mb-0 <b>Variedad Hass</b>
@@ -207,7 +206,7 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1. 
-          span Razas Antillana
+          span Descripciones de las razas de aguacates
 
         .tabla-b.tbl
           table
@@ -277,11 +276,11 @@
 
     p Cada zona de vida tiene características especiales y específicas que la hacen apta para la siembra de cada especie agrícola, por lo tanto, antes de la siembra de un cultivo debe tenerse muy en cuenta este parámetro. A continuación, se presenta información precisa sobre las zonas de vida según Holdridge (1987):
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in")
       h5 Tabla 2. 
       span Rangos clasificación climática de <i>Holdridge</i>
 
-    .tabla-b.tbl.tbl-c.mb-4
+    .tabla-b.tbl.tbl-c.mb-4(data-aos="fade-left")
       table
         thead
           tr
@@ -405,8 +404,8 @@
             td > 1000
             td Extremadamente frío pluvial
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-xl-9.col-lg-8
         p Es importante tener en cuenta la zona de vida para la producción de aguacate, pues de esta depende la adaptación, desarrollo, crecimiento, producción y productividad de la especie. Se tienen en cuenta variables como: altura sobre el nivel del mar y factores climáticos como temperatura, brillo solar, humedad relativa, vientos y precipitación. Dichas variables son determinantes para este tipo de cultivo.
 
         .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
@@ -423,7 +422,7 @@
             p.mb-0 <b>Raza Guatemalteca:</b> su desarrollo óptimo está entre 1.200 y 2.400 m.s.n.m.
             p.mb-0 <b>Raza Antillana:</b> su desarrollo óptimo está entre 0 y 1.500, aunque en Colombia se puede encontrar hasta los 2.000 m.s.n.m.
 
-      .col-lg-3.col-md-6
+      .col-xl-3.col-md-6.col-lg-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema1/img-16.png', alt='Texto que describa la imagen')
 
@@ -433,12 +432,9 @@
       .col.px-0
         h4.mb-0 Factores climáticos
 
-    p.mb-4 Los aguacates mexicanos prosperan en climas templados a cálidos, tolerando temperaturas más frías. Los guatemaltecos requieren condiciones templadas y húmedas, con menos resistencia al frío. En cambio, los antillanos son ideales para climas cálidos y húmedos, siendo más sensibles a las heladas. Todos requieren buen drenaje y estabilidad hídrica para un crecimiento óptimo y producción de frutos:
+    p.mb-4(data-aos="fade-right") Los aguacates mexicanos prosperan en climas templados a cálidos, tolerando temperaturas más frías. Los guatemaltecos requieren condiciones templadas y húmedas, con menos resistencia al frío. En cambio, los antillanos son ideales para climas cálidos y húmedos, siendo más sensibles a las heladas. Todos requieren buen drenaje y estabilidad hídrica para un crecimiento óptimo y producción de frutos.
 
-
-
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
+    .row.justify-content-center.align-items-center(data-aos="zoom-in")
       .col-lg-4.col-md-6.order-2.order-xl-1.mb-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img-17.png')
@@ -454,37 +450,45 @@
             p.mb-0 <b>Raza Antillana:</b> el crecimiento óptimo se da en zonas cuyas precipitaciones son menores a 1.000 mm.
 
           .row(titulo="Brillo solar")
-            p.mb-0 Es importante que la zona donde se vaya a establecer el cultivo de aguacate tenga un promedio de 1.500 horas-luz/año.)
-
+            p.mb-0 Es importante que la zona donde se vaya a establecer el cultivo de aguacate tenga un promedio de 1.500 horas-luz/año.
 
           .row(titulo="Humedad relativa")
-            p.mb-0 El aguacate se adapta a climas húmedos y semihúmedos con marcadas diferencias entre las estaciones húmedas y secas. La humedad relativa promedio del ambiente para el cultivo de aguacate debe estar cercana al 70 %, el orden de adaptación de menor a mayor humedad relativa para las tres razas es:
-            p.mb-0 1. Mexicana.
-            p.mb-0 2. Guatemalteca.
-            p.mb-0 3.Antillana.
+            p.mb-2 El aguacate se adapta a climas húmedos y semihúmedos con marcadas diferencias entre las estaciones húmedas y secas. La humedad relativa promedio del ambiente para el cultivo de aguacate debe estar cercana al 70 %, el orden de adaptación de menor a mayor humedad relativa para las tres razas es:
+            ol.lista-ol
+              li.mb-0 
+                span.text-bold 1. 
+                | Mexicana.
+              li.mb-0 
+                span.text-bold 2.
+                | Guatemalteca.
+              li.mb-0 
+                span.text-bold 3. 
+                | Antillana.
           .row(titulo="Vientos")
             p El aguacate es un cultivo que no tolera vientos fuertes dado que estos causan defoliación, daño de ramas, caída de flores y frutos, y pueden afectar el proceso de polinización. Si estos se presentan en el área seleccionada para la siembra del cultivo se deben establecer barreras vivas para su protección. El viento no debe ser constante ni alcanzar velocidades por encima de los 20 km/h.
 
-    .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
-      .col-auto.pe-2
-        img(src="@/assets/curso/temas/tema1/img-2.png", alt="Icono")
-      .col.px-0
-        h4.mb-0 Suelos
+    Separador
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+    .row.justify-content-start.align-items-center(data-aos="zoom-in")
+      .col-xl-5.col-lg-7.col-md-10
+        .row.pe-lg-3.mb-2.fnd-2.align-items-center
+          .col-auto.pe-2
+            img(src="@/assets/curso/temas/tema2/img-2.svg", alt="Icono")
+          .col.px-0
+            h4.mb-0.tit-2 Suelos
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
+      .col-xl-8.order-2.order-lg-2.order-xl-1
         p Las características físicas y químicas de un suelo son determinantes para la siembra de un cultivo, de ahí la importancia de realizar un análisis de suelo previo a la siembra de cualquier especie agrícola, pues con esto se está disminuyendo los riesgos de someter a las plantas a deficiencias o toxicidades nutricionales. Las recomendaciones finales para garantizar una buena nutrición de la plantación deben estar avaladas por un técnico que conozca sobre el cultivo y sus exigencias en cuanto a nutrientes.
-
-
         .row.justify-content-center.align-items-center.fnd-3-5.p-4
-          .col-lg-4.col-md-6
+          .col-lg-3.col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-18.png')
-          .col-lg-8
+              img.mb-lg-0.mb-4(src='@/assets/curso/temas/tema1/img-18.png')
+          .col-lg-9
             p Los suelos más recomendados para este cultivo son los de textura suelta (francos) que favorezcan la formación de un sistema radical denso y muy ramificado, con profundidad efectiva y nivel freático superior a 1 metro, bien drenados, ya que sus raíces son altamente susceptibles a problemas radicales. Su pH debe oscilar entre 5.5 - 7.0.
             p Se pueden presentar deficiencias de hierro y zinc en suelos de reacción alcalina, este cultivo puede ser sembrado en suelos o franco arcillosos siempre y cuando se tenga un buen drenaje y contenido de materia orgánica.
-      .col-lg-4.col-md-6
-        figure
+      .col-xl-4.col-md-4.d-none.d-md-block.order-1.order-lg-1.order-xl-2
+        figure.mb-4.mb-xl-0
           img(src='@/assets/curso/temas/tema1/img-19.png')
 
     Separador
@@ -497,7 +501,7 @@
           .col.px-0
             h4.mb-0.tit-2 Zonas productoras de aguacate:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10
         .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
           .col-auto.pe-2
@@ -509,7 +513,7 @@
           .col-lg-8
             P La producción mundial de aguacate ha venido creciendo a ritmo acelerado a partir de 1999 (5 % en promedio por año), alcanzando un total de 8,9 millones de toneladas en el 2022.
 
-            P Esta es una lista de países por producción de aguacate, llamado también palta, en 2022, basada en los datos de la Organización de las Naciones Unidas para la Alimentación y la Agricultura.1 La producción mundial total de aguacate en 2022 era de 8,978,275 toneladas. México era con creces el mayor productor, representando el 28.12% de la producción mundial.
+            P Esta es una lista de países por producción de aguacate, llamado también palta, en 2022, basada en los datos de la Organización de las Naciones Unidas para la Alimentación y la Agricultura. La producción mundial total de aguacate en 2022 era de 8,978,275 toneladas. México era con creces el mayor productor, representando el 28.12 % de la producción mundial.
 
           .col-lg-4.col-md-6
             figure
@@ -591,9 +595,49 @@
                 td 15
                 td China
                 td 135.860
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-8
+        .row.justify-content-center.align-items-center(data-aos="fade-right")
+          .col-xl-10.fnd-6
+            .row.justify-content-center.align-items-center.fnd-5
+              .col-xl-9.col-lg-8
+                p.mb-0 Dos países se destacan entre los mayores productores con características similares en cuanto a su participación en el comercio mundial: México y Colombia, con una producción de 2.5 y 1.1 millones toneladas/año respectivamente. Su producción fundamentalmente se dirige hacia el mercado interno debido al tamaño de su población.
+              .col-xl-2.col-lg-3
+                figure.fl-box-img
+                  img(src='@/assets/curso/temas/tema1/img-21.png' alt='Background Image')
+
+
+
+
+    .row.justify-content-center.align-items-center(data-aos="zoom-in") 
+      .col-lg-12.tg-a
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.img-72-(src='@/assets/curso/temas/tema1/img-22.png' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.fnd-7
+            .py-3.pe-5
+              p.mb-0 <b>Colombia</b> registra un crecimiento del 63 % al aumentar la producción de 114 mil toneladas en el año 1996 a 2.5 millones de toneladas en el 2022; este último año con un crecimiento importante de 12.5% respecto al inmediatamente anterior. Resulta sorprendente que Colombia siendo el segundo productor a nivel mundial no exporte aguacate, sino que figura como importador, especialmente por compras realizadas a sus dos vecinos: Venezuela y Ecuador.
+      .col-lg-6.tg-b
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.img-72(src='@/assets/curso/temas/tema1/img-23.png' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.fnd-7
+            .py-3.px-2
+              p.mb-0 El mayor crecimiento en la producción del último año lo alcanzó <b>México</b> con 28.17 %, debido a sus mayores niveles de productividad, no obstante, a la disminución del área cultivada.
+      .col-lg-6.tg-b
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.img-72(src='@/assets/curso/temas/tema1/img-24.png' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.fnd-7
+            .py-3.px-2
+              p.mb-0 <b>Peru</b>, otro proveedor de importancia de la fruta a nivel mundial fue el tercero en crecimiento de la producción con un aumento en toneladas del 9.65 %.
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-10
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-9
-            p Estos cuatro países representan alrededor del 60% de la producción mundial de aguacate. En 2022, México fue el principal productor, con un 28.2% de la producción mundial, seguido de Colombia con un 12.1%, Perú con un 9.7% y República Dominicana con un 8.2%
+            p Estos cuatro países representan alrededor del 60 % de la producción mundial de aguacate. En 2022, México fue el principal productor, con un 28.2 % de la producción mundial, seguido de Colombia con un 12.1%, Perú con un 9.7 % y República Dominicana con un 8.2 %
             p Por lo anterior, resulta importante analizar el comportamiento histórico de la producción de aguacate en los principales países productores y algunos competidores futuros de Colombia en el mercado mundial de esta fruta.
           .col-lg-3.col-md-6
             figure
@@ -606,7 +650,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
             p Actualmente se cultiva en más de 60 países, casi todos los países de clima cálido y templado, aunque sus mayores cultivos están en los países México, Chile, República Dominicana, Indonesia, Perú, Colombia, Brasil y Estados Unidos. Estos países aportan más del 60% de la producción mundial. El área cosechada en aguacate corresponde al 4.7% del área mundial cosechada en otras frutas tropicales. La producción mundial de esta fruta ha mostrado un crecimiento en la última década concentrada en América latina y el Caribe.
- 
+
             p En Colombia el área sembrada en aguacate está concentrada en los departamentos de Antioquia especialmente en el oriente antioqueño, en el 2023 fue el principal exportador de aguacate con una participación de 41,4% , Los departamentos de Tolima,  Caldas, Santander, Bolívar, Cesar, Valle del Cauca, y Quindío, representan el 86% del total del área sembrada de aguacate en el país.
           .col-lg-4.col-md-6
             figure

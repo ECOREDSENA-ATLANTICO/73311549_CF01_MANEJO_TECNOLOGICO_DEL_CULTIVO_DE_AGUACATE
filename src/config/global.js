@@ -102,15 +102,20 @@ export default {
       tema: 'Generalidades del cultivo de aguacate.',
       referencia: 'Asociado Asproagricol.',
       tipo: 'PDF',
-      link:
-        'https://ccoa.org.co/wp-content/uploads/2023/02/Cartilla-aguacate-2.pdf ',
+      descarga: '/downloads/Cartilla-aguacate-2.pdf',
     },
     {
-      tema: 'Generalidades del cultivo de aguacate',
+      tema: 'Generalidades del cultivo de aguacate.',
       referencia: 'Asociado SENA',
       tipo: 'Video',
-      descarga:
-        'https://sioc.minagricultura.gov.co/Aguacate/Normatividad/Paquete%20Tecnologico%20Aguacate.pdf ',
+      link:
+        'https://www.youtube.com/watch?v=sV11J7gUxN4&list=PLSWxIMlhdBOdXxkP1Vb79VUgukPmYPu34&index=1',
+    },
+    {
+      tema: 'Generalidades del cultivo de aguacate.',
+      referencia: 'Mini agricultura.',
+      tipo: 'PDF',
+      descarga: '/downloads/Paquete Tecnologico Aguacate.pdf',
     },
   ],
   glosario: [
@@ -153,48 +158,40 @@ export default {
     },
     {
       referencia:
-        'Cabezas, C., Hueso, J. y Cuevas, J. (2003). Identificación y descripción de los estados fenológicos-tipo del aguacate (Persea americana Mill). Almería, España: Universidad de Almería',
-      link: '',
+        'Cabezas, C., Hueso, J. y Cuevas, J. (2003). Identificación y descripción de los estados fenológicos-tipo del aguacate (Persea americana Mill). Almería, España: Universidad de Almería.',
     },
     {
       referencia:
-        'Corpoica. (2008). Tecnología para el cultivo de aguacate. Consultado el 15 de julio de 2014, en ',
-      link: '',
+        'Corpoica. (2008). Tecnología para el cultivo de aguacate. Consultado el 15 de julio de 2014. ',
     },
     {
       referencia:
-        'Díaz, D. (2009). Manual técnico del cultivo de aguacate. Bogotá, Colombia: Produmedios',
-      link: '',
+        'Díaz, D. (2009). Manual técnico del cultivo de aguacate. Bogotá, Colombia: Produmedios.',
     },
     {
       referencia:
-        'Frutas frescas. Aguacate. Variedades mejoradas. Especificaciones (NTC 5209). (2003, 22 de octubre). Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC), 2004, 31 de julio',
-      link: '',
+        'Frutas frescas. Aguacate. Variedades mejoradas. Especificaciones (NTC 5209). (2003, 22 de octubre). Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC), 2004, 31 de julio.',
     },
     {
       referencia:
         'Holdridge, L. (1987). Ecología basada en zonas de vida. San José, Costa Rica: Editorial IICA.',
-      link: '',
     },
     {
       referencia:
-        'Infoagro. (s.f.). El cultivo del aguacate (1ª parte). Consultado el 15 de julio de 2014, en',
-      link: 'http://www.infoagro.com/frutas/frutas_tropicales/aguacate',
+        'Infoagro. (s.f.). El cultivo del aguacate (1ª parte). Consultado el 15 de julio de 2014.',
+      link: 'http://www.infoagro.com/frutas/frutas_tropicales/aguacate.htm',
     },
     {
       referencia:
         'Tamayo, P. (1994). Integración de métodos de control de las enfermedades de las plantas: guía ilustrada. Rionegro, Antioquia: Corpoica. ',
-      link: '',
     },
     {
       referencia:
         'Tamayo, P. (2005). Reconocimiento de enfermedades del aguacate en Colombia. Medellín, Colombia: Facultad Nacional de Agronomía. ',
-      link: '',
     },
     {
       referencia:
         '<em>Whiley</em>, A., Schaffer, B. y <em>Wolstenholme</em>, B. (2007). El Palto: botánica, producción y usos. Valparaíso, Chile: Ediciones Universitarias de Valparaíso.',
-      link: '',
     },
   ],
   creditos: [
@@ -203,13 +200,15 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -217,9 +216,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Paola Andrea Bobadilla Gutiérrez',
+          cargo: 'Guionista línea de producción',
+          centro: 'Centro Agroindustrial - Regional Quindío ',
+        },
+        {
+          nombre: 'Fabian Cuartas Donado',
+          cargo: 'Evaluador instruccional',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -227,24 +232,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Carmen Alicia Martinez Torres',
+          cargo: 'Diseñor web',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Jorge Leonardo Camacho Pardo',
+          cargo: 'Desarrollador <em> full stack</em>',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Alexander Rafael Acosta Bedoya',
+          cargo: 'Animador y productor audiovisual',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
@@ -252,24 +255,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Juan Carlos Cardona Acosta',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos digitales ',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
