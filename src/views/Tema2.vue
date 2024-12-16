@@ -245,6 +245,7 @@
 
         .tabla-b.tbl.tbl-c
           table
+            caption Fuente:  Sena (2024).
             thead
               tr
                 th 

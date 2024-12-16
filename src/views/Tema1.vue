@@ -146,7 +146,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 1. 
-          span Razas Mexicana
+          span Raza Mexicana
 
 
         ImagenInfografica.color-secundario.mb-5
@@ -164,7 +164,7 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 2. 
-          span Razas Guatemalteca
+          span Raza Guatemalteca
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -190,7 +190,7 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 3. 
-          span Razas Antillana
+          span Raza Antillana
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -210,6 +210,7 @@
 
         .tabla-b.tbl
           table
+            caption Fuente:  Sena (2024).
             thead
               tr
                 th
@@ -282,6 +283,7 @@
 
     .tabla-b.tbl.tbl-c.mb-4(data-aos="fade-left")
       table
+        caption Fuente:  Sena (2024).
         thead
           tr
             th 
@@ -526,6 +528,7 @@
 
         .tabla-b.tbl.tbl-c.mb-5
           table
+            caption Fuente:  Sena (2024).
             thead 
               tr
                 th
@@ -565,7 +568,7 @@
                 td 338.238
               tr
                 td 8
-                td Vietnan
+                td Vietnam
                 td 210.595
               tr
                 td 9

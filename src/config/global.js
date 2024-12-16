@@ -105,14 +105,14 @@ export default {
       descarga: '/downloads/Cartilla-aguacate-2.pdf',
     },
     {
-      tema: 'Generalidades del cultivo de aguacate.',
+      tema: 'Manejo tecnológico del cultivo de aguacate.',
       referencia: 'Asociado SENA',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=sV11J7gUxN4&list=PLSWxIMlhdBOdXxkP1Vb79VUgukPmYPu34&index=1',
     },
     {
-      tema: 'Generalidades del cultivo de aguacate.',
+      tema: 'Manual técnico cultivo de aguacate.',
       referencia: 'Mini agricultura.',
       tipo: 'PDF',
       descarga: '/downloads/Paquete Tecnologico Aguacate.pdf',
