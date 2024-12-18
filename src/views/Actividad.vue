@@ -36,7 +36,7 @@ export default {
         {
           id: 2,
           texto: '¿Qué tipo de suelo es más adecuado para el aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Arenoso.', esCorrecta: false },
@@ -50,7 +50,7 @@ export default {
         {
           id: 3,
           texto: '¿Cuál es la distancia recomendada entre plantas de aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: '1 metro.', esCorrecta: false },
@@ -65,7 +65,7 @@ export default {
           id: 4,
           texto:
             '¿Qué factor es crucial en la selección de patrones para el aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Color de la fruta.', esCorrecta: false },
@@ -79,7 +79,7 @@ export default {
         {
           id: 5,
           texto: '¿Cuál es la principal forma de propagación del aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Semilla.', esCorrecta: false },
@@ -109,7 +109,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál es la duración promedio de un aguacate desde la siembra hasta la cosecha?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: '1 año.', esCorrecta: false },
@@ -124,7 +124,7 @@ export default {
           id: 8,
           texto:
             '¿Qué característica de la flor del aguacate ayuda a evitar la autofecundación?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Color.', esCorrecta: false },
@@ -139,7 +139,7 @@ export default {
           id: 9,
           texto:
             '¿Qué se debe hacer con la semilla de aguacate después de extraerla del fruto?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Secarlas.', esCorrecta: true },
@@ -154,7 +154,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál es el principal desafío en el manejo de vivero para aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Riego.', esCorrecta: false },
@@ -184,7 +184,7 @@ export default {
           id: 12,
           texto:
             '¿Qué tipo de fertilizante se recomienda para el aguacate en el vivero?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Solo orgánico.', esCorrecta: false },
@@ -199,7 +199,7 @@ export default {
           id: 13,
           texto:
             '¿En qué fase del crecimiento del aguacate se realiza la poda?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Al inicio.', esCorrecta: false },
@@ -218,7 +218,7 @@ export default {
           id: 14,
           texto:
             '¿Qué tipo de riego es más efectivo para el cultivo de aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Riego por goteo.', esCorrecta: true },
@@ -233,7 +233,7 @@ export default {
           id: 15,
           texto:
             '¿Cuál es el tamaño ideal del contenedor para iniciar el cultivo de aguacate en vivero?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: '1 litro.', esCorrecta: false },
@@ -263,7 +263,7 @@ export default {
           id: 17,
           texto:
             '¿Cuál es el principal beneficio de utilizar injertos en el aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Acelera el crecimiento.', esCorrecta: false },
@@ -289,7 +289,7 @@ export default {
         {
           id: 18,
           texto: '¿Qué se debe evitar al manejar las yemas para injerto?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Exposición a la luz.', esCorrecta: true },
@@ -307,7 +307,7 @@ export default {
         {
           id: 19,
           texto: '¿Qué color pueden tener las flores del aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Solo blanco.', esCorrecta: false },
@@ -326,7 +326,7 @@ export default {
           id: 20,
           texto:
             '¿Cuál es la importancia de la selección del material vegetal en el cultivo de aguacate?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Aumenta el costo.', esCorrecta: false },

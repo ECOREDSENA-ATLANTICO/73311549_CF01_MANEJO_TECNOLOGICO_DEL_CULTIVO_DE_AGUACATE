@@ -162,19 +162,19 @@
     TabsA.color-acento-botones.mb-5.fnd-9(data-aos="fade-left")
       .tarjeta.fnd-9-1.p-4(titulo="Selección de yemas")
         .row.justify-content-center.align-items-center.px-lg-4.px-md-1
-          .col-lg-6.mb-4.mb-lg-0            
+          .col-xl-6.mb-4.mb-lg-0            
             p El árbol seleccionado para la obtención de las yemas debe tener las siguientes características: buen manejo agronómico (ubicación en una zona de vida apta, planeación del cultivo, suelo adecuado, labores culturales, fertilización, Manejo Integrado de Plagas y Enfermedades – MIPE y BPA), buen desarrollo, alta capacidad productiva, producción constante, buen historial fitosanitario (especialmente no haber sido afectado por los hongos <em>Phytophthora o Verticillium)</em>.
               
-          .col-lg-6.col-md-8
+          .col-xl-6.col-md-8
             figure
               img(src='@/assets/curso/temas/tema2/img-17.png')
 
       .tarjeta.fnd-9-1.p-4(titulo="Recolección de yemas")
         .row.justify-content-center.align-items-center.px-lg-4.px-md-1
-          .col-lg-7.mb-4.mb-lg-0         
+          .col-xl-7.mb-4.mb-lg-0         
             p Las yemas deben ser recolectadas de las puntas de las ramas en pleno crecimiento, no deben ser brotes y tener las hojas maduras y firmes al tacto. Deben estar libres de plagas, enfermedades y sin ningún daño mecánico. Su corte debe hacerse de manera diagonal (utilizando tijeras podadoras o navajas desinfectadas y filosas). 
             
-          .col-lg-5.col-md-8.mb-4.mb-lg-0
+          .col-xl-5.col-md-8.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema2/img-18.png')
 
@@ -185,20 +185,20 @@
 
       .tarjeta.fnd-9-1.p-4(titulo="Proceso de injertación")
         .row.justify-content-center.align-items-center.px-lg-4.px-md-1
-          .col-lg-7.mb-4.mb-lg-0          
+          .col-xl-7.mb-4.mb-lg-0          
             p En el proceso de injertación primero se debe cortar el patrón a 20 o 30 cm de altura, se recomienda retirar solo las hojas cercanas al punto donde se va a injertar para evitar un mayor estrés en la plántula. 
             
             p.mb-0 En el tronco del portainjerto (patrón) se hace un corte vertical de 3 a 5 cm, un poco más largo que la cuña de la yema, luego se inserta en el corte haciendo coincidir ambos lados, casando perfectamente entre sí.
-          .col-lg-5.col-md-8
+          .col-xl-5.col-md-8
             figure
               img(src='@/assets/curso/temas/tema2/img-19.png')
 
       .tarjeta.fnd-9-1.p-4(titulo="Método de injertación")
         .row.justify-content-center.align-items-center.px-lg-4.px-md-1
-          .col-lg-7.mb-4.mb-lg-0           
+          .col-xl-7.mb-4.mb-lg-0           
             p Se tienen diferentes técnicas para llevar a cabo el proceso de injertación. El injerto de púa terminal es el método más usado por la facilidad de operación y el alto porcentaje de prendimiento. La yema que se va a injertar se le hace un corte en forma de cuña haciéndole dos cortes en punta. 
             
-          .col-lg-5.col-md-8
+          .col-xl-5.col-md-8
             figure
               img(src='@/assets/curso/temas/tema2/img-20.png')
 
@@ -206,9 +206,9 @@
       .col-lg-5.col-md-6.p-0.mb-0.py-md-4.py-lg-0
         figure.mb-xl-0
           img(src='@/assets/curso/temas/tema2/img-21.png')
-      .col-lg-7
+      .col-lg-7.p-4.p-md-3
         p Posteriormente, se debe envolver el injerto con una cinta plástica de 12 cm de largo y 1 o 2 cm de ancho (polietileno), ejerciendo una presión continua sobre la cirugía; enrollando de abajo hacia arriba en un mismo sentido, templando a la vez y procurando que la parte inferior de la cinta quede pisada en la primera vuelta, al terminar se introduce la punta superior por debajo de la última vuelta y se aprieta.
-        p.mb-0.mb-md-4 Después del proceso de injertación y encinte, se cubre el injerto con una bolsa plástica transparente (calibre grueso) para evitar la deshidratación de la yema injertada. Encima de la bolsa plástica se coloca una bolsa de papel con el fin de proteger los nuevos brotes de los rayos solares, esta se debe dejar hasta que se tengan hojas formadas (en promedio 2).
+        p.mb-0 Después del proceso de injertación y encinte, se cubre el injerto con una bolsa plástica transparente (calibre grueso) para evitar la deshidratación de la yema injertada. Encima de la bolsa plástica se coloca una bolsa de papel con el fin de proteger los nuevos brotes de los rayos solares, esta se debe dejar hasta que se tengan hojas formadas (en promedio 2).
 
     Separador
 

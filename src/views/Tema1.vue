@@ -149,7 +149,7 @@
           span Raza Mexicana
 
 
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.c-1.color-secundario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img-12.png', alt='Texto que describa la imagen')
@@ -165,7 +165,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 2. 
           span Raza Guatemalteca
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.c-2.color-secundario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img-13.png', alt='Texto que describa la imagen')
@@ -191,7 +191,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 3. 
           span Raza Antillana
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.c-3.color-secundario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img-14.png', alt='Texto que describa la imagen')
@@ -265,209 +265,210 @@
                 td Hasta 5 días
 
     Separador
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
 
+        .row.justify-content-start.align-items-center.mb-4(data-aos="zoom-in")
+          .col-xl-4.col-lg-5.col-md-10
+            .row.pe-lg-3.mb-2.fnd-2.align-items-center
+              .col-auto.pe-2
+                img(src="@/assets/curso/temas/tema2/img-2.svg", alt="Icono")
+              .col.px-0
+                h4.mb-0.tit-2 Zonas de vida
 
-    .row.justify-content-start.align-items-center.mb-4(data-aos="zoom-in")
-      .col-xl-4.col-lg-5.col-md-10
-        .row.pe-lg-3.mb-2.fnd-2.align-items-center
-          .col-auto.pe-2
-            img(src="@/assets/curso/temas/tema2/img-2.svg", alt="Icono")
-          .col.px-0
-            h4.mb-0.tit-2 Zonas de vida
+        p Cada zona de vida tiene características especiales y específicas que la hacen apta para la siembra de cada especie agrícola, por lo tanto, antes de la siembra de un cultivo debe tenerse muy en cuenta este parámetro. A continuación, se presenta información precisa sobre las zonas de vida según Holdridge (1987):
 
-    p Cada zona de vida tiene características especiales y específicas que la hacen apta para la siembra de cada especie agrícola, por lo tanto, antes de la siembra de un cultivo debe tenerse muy en cuenta este parámetro. A continuación, se presenta información precisa sobre las zonas de vida según Holdridge (1987):
+        .titulo-sexto.color-acento-contenido(data-aos="zoom-in")
+          h5 Tabla 2. 
+          span Rangos clasificación climática de <i>Holdridge</i>
 
-    .titulo-sexto.color-acento-contenido(data-aos="zoom-in")
-      h5 Tabla 2. 
-      span Rangos clasificación climática de <i>Holdridge</i>
+        .tabla-b.tbl.tbl-c.mb-4(data-aos="fade-left")
+          table
+            caption Fuente:  Sena (2024).
+            thead
+              tr
+                th 
+                  h4.mb-0 Símbolo
+                th 
+                  h4.mb-0 Zona de vida
+                th 
+                  h4.mb-0 T °C
+                th 
+                  h4.mb-0 Precipitación (mm/año)
+                th 
+                  h4.mb-0 Clima
+            tbody
+              tr
+                td bms-T
+                td Bosque muy seco tropical
+                td > 24
+                td 500 a 1000
+                td Cálido muy seco
+              tr
+                td bs-T
+                td Bosque seco tropical
+                td > 24
+                td 1000 a 2000
+                td Cálido seco
+              tr
+                td bh-T
+                td Bosque húmedo tropical
+                td > 24
+                td 2000 a 4000
+                td Cálido húmedo
+              tr
+                td bmh-T
+                td Bosque muy húmedo tropical
+                td > 24
+                td 4000 a 8000
+                td Cálido muy húmedo
+              tr
+                td bp-T
+                td Bosque pluvial tropical
+                td > 24
+                td > 8000
+                td Cálido pluvial
+              tr
+                td bs-PM
+                td Bosque seco premontano
+                td 18 a 24
+                td 500 a 1000
+                td Medio seco
+              tr
+                td bh-PM
+                td Bosque húmedo premontano
+                td 18 a 24
+                td 1000 a 2000
+                td Medio húmedo
+              tr
+                td bmh-PM
+                td Bosque muy húmedo premontano
+                td 18 a 24
+                td 2000 a 4000
+                td Medio muy húmedo
+              tr
+                td bp-PM
+                td Bosque pluvial premontano
+                td 18 a 24
+                td > 4000
+                td Medio pluvial
+              tr
+                td bh-MB
+                td Bosque húmedo montano bajo
+                td 12 a 18
+                td 500 a 1000
+                td Frío húmedo
+              tr
+                td bmh-MB
+                td Bosque muy húmedo montano bajo
+                td 12 a 18
+                td 2000 a 4000
+                td Frío muy húmedo
+              tr
+                td bp-MB
+                td Bosque pluvial montano bajo
+                td 12 a 18
+                td > 4000
+                td Frío pluvial
+              tr
+                td bh-M
+                td Bosque húmedo montano
+                td 6 a 12
+                td 500 a 1000
+                td Muy frío húmedo
+              tr
+                td bmh-M
+                td Bosque muy húmedo montano
+                td 6 a 12
+                td 1000 a 2000
+                td Muy frío muy húmedo
+              tr
+                td bp-M
+                td Bosque pluvial montano
+                td 6 a 12
+                td > 2000
+                td Muy frío pluvial
+              tr
+                td mh-SA
+                td Monte húmedo subalpino
+                td 3 a 6
+                td 250 a 500
+                td Extremadamente frío húmedo
+              tr
+                td p-SA
+                td Páramo subalpino
+                td 3 a 6
+                td 500 a 1000
+                td Extremadamente frío muy húmedo
+              tr
+                td pp-SA
+                td Páramo pluvial subalpino
+                td 3 a 6
+                td > 1000
+                td Extremadamente frío pluvial
 
-    .tabla-b.tbl.tbl-c.mb-4(data-aos="fade-left")
-      table
-        caption Fuente:  Sena (2024).
-        thead
-          tr
-            th 
-              h4.mb-0 Símbolo
-            th 
-              h4.mb-0 Zona de vida
-            th 
-              h4.mb-0 T °C
-            th 
-              h4.mb-0 Precipitación (mm/año)
-            th 
-              h4.mb-0 Clima
-        tbody
-          tr
-            td bms-T
-            td Bosque muy seco tropical
-            td > 24
-            td 500 a 1000
-            td Cálido muy seco
-          tr
-            td bs-T
-            td Bosque seco tropical
-            td > 24
-            td 1000 a 2000
-            td Cálido seco
-          tr
-            td bh-T
-            td Bosque húmedo tropical
-            td > 24
-            td 2000 a 4000
-            td Cálido húmedo
-          tr
-            td bmh-T
-            td Bosque muy húmedo tropical
-            td > 24
-            td 4000 a 8000
-            td Cálido muy húmedo
-          tr
-            td bp-T
-            td Bosque pluvial tropical
-            td > 24
-            td > 8000
-            td Cálido pluvial
-          tr
-            td bs-PM
-            td Bosque seco premontano
-            td 18 a 24
-            td 500 a 1000
-            td Medio seco
-          tr
-            td bh-PM
-            td Bosque húmedo premontano
-            td 18 a 24
-            td 1000 a 2000
-            td Medio húmedo
-          tr
-            td bmh-PM
-            td Bosque muy húmedo premontano
-            td 18 a 24
-            td 2000 a 4000
-            td Medio muy húmedo
-          tr
-            td bp-PM
-            td Bosque pluvial premontano
-            td 18 a 24
-            td > 4000
-            td Medio pluvial
-          tr
-            td bh-MB
-            td Bosque húmedo montano bajo
-            td 12 a 18
-            td 500 a 1000
-            td Frío húmedo
-          tr
-            td bmh-MB
-            td Bosque muy húmedo montano bajo
-            td 12 a 18
-            td 2000 a 4000
-            td Frío muy húmedo
-          tr
-            td bp-MB
-            td Bosque pluvial montano bajo
-            td 12 a 18
-            td > 4000
-            td Frío pluvial
-          tr
-            td bh-M
-            td Bosque húmedo montano
-            td 6 a 12
-            td 500 a 1000
-            td Muy frío húmedo
-          tr
-            td bmh-M
-            td Bosque muy húmedo montano
-            td 6 a 12
-            td 1000 a 2000
-            td Muy frío muy húmedo
-          tr
-            td bp-M
-            td Bosque pluvial montano
-            td 6 a 12
-            td > 2000
-            td Muy frío pluvial
-          tr
-            td mh-SA
-            td Monte húmedo subalpino
-            td 3 a 6
-            td 250 a 500
-            td Extremadamente frío húmedo
-          tr
-            td p-SA
-            td Páramo subalpino
-            td 3 a 6
-            td 500 a 1000
-            td Extremadamente frío muy húmedo
-          tr
-            td pp-SA
-            td Páramo pluvial subalpino
-            td 3 a 6
-            td > 1000
-            td Extremadamente frío pluvial
+        .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+          .col-xl-9.col-lg-8
+            p Es importante tener en cuenta la zona de vida para la producción de aguacate, pues de esta depende la adaptación, desarrollo, crecimiento, producción y productividad de la especie. Se tienen en cuenta variables como: altura sobre el nivel del mar y factores climáticos como temperatura, brillo solar, humedad relativa, vientos y precipitación. Dichas variables son determinantes para este tipo de cultivo.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-xl-9.col-lg-8
-        p Es importante tener en cuenta la zona de vida para la producción de aguacate, pues de esta depende la adaptación, desarrollo, crecimiento, producción y productividad de la especie. Se tienen en cuenta variables como: altura sobre el nivel del mar y factores climáticos como temperatura, brillo solar, humedad relativa, vientos y precipitación. Dichas variables son determinantes para este tipo de cultivo.
+            .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
+              .col-auto.pe-2
+                img(src="@/assets/curso/temas/tema1/img-2.png", alt="Icono")
+              .col.px-0
+                h4.mb-0 Altura sobre el nivel del mar
+            p Esta variable determina el piso térmico apto para el desarrollo del cultivo. A continuación, se relaciona la altura sobre el nivel del mar óptimo para cada una de las razas de aguacate.
+            .row.justify-content-center.align-items-center.mb-0.fnd-3-3.p-4
+              .col-auto.pe-2
+                img(src="@/assets/curso/temas/tema1/img-15.svg", alt="Icono")
+              .col.px-0
+                p.mb-0 <b>Raza Mexicana:</b> su desarrollo óptimo está entre los 1.700 y 2.500 m.s.n.m.
+                p.mb-0 <b>Raza Guatemalteca:</b> su desarrollo óptimo está entre 1.200 y 2.400 m.s.n.m.
+                p.mb-0 <b>Raza Antillana:</b> su desarrollo óptimo está entre 0 y 1.500, aunque en Colombia se puede encontrar hasta los 2.000 m.s.n.m.
+
+          .col-xl-3.col-md-6.col-lg-4.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/temas/tema1/img-16.png', alt='Texto que describa la imagen')
 
         .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
           .col-auto.pe-2
             img(src="@/assets/curso/temas/tema1/img-2.png", alt="Icono")
           .col.px-0
-            h4.mb-0 Altura sobre el nivel del mar
-        p Esta variable determina el piso térmico apto para el desarrollo del cultivo. A continuación, se relaciona la altura sobre el nivel del mar óptimo para cada una de las razas de aguacate.
-        .row.justify-content-center.align-items-center.mb-0.fnd-3-3.p-4
-          .col-auto.pe-2
-            img(src="@/assets/curso/temas/tema1/img-15.svg", alt="Icono")
-          .col.px-0
-            p.mb-0 <b>Raza Mexicana:</b> su desarrollo óptimo está entre los 1.700 y 2.500 m.s.n.m.
-            p.mb-0 <b>Raza Guatemalteca:</b> su desarrollo óptimo está entre 1.200 y 2.400 m.s.n.m.
-            p.mb-0 <b>Raza Antillana:</b> su desarrollo óptimo está entre 0 y 1.500, aunque en Colombia se puede encontrar hasta los 2.000 m.s.n.m.
+            h4.mb-0 Factores climáticos
 
-      .col-xl-3.col-md-6.col-lg-4.d-none.d-lg-block
-        figure
-          img(src='@/assets/curso/temas/tema1/img-16.png', alt='Texto que describa la imagen')
+        p.mb-4(data-aos="fade-right") Los aguacates mexicanos prosperan en climas templados a cálidos, tolerando temperaturas más frías. Los guatemaltecos requieren condiciones templadas y húmedas, con menos resistencia al frío. En cambio, los antillanos son ideales para climas cálidos y húmedos, siendo más sensibles a las heladas. Todos requieren buen drenaje y estabilidad hídrica para un crecimiento óptimo y producción de frutos.
 
-    .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
-      .col-auto.pe-2
-        img(src="@/assets/curso/temas/tema1/img-2.png", alt="Icono")
-      .col.px-0
-        h4.mb-0 Factores climáticos
+        .row.justify-content-center.align-items-center(data-aos="zoom-in")
+          .col-lg-4.col-md-6.order-2.order-xl-1.mb-lg-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img-17.png')
+          .col-xl-8.order-1.order-xl-2
+            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-3-4")
+              .row(titulo="Temperatura")
+                p.mb-0 <b>Raza Mexicana:</b> su desarrollo óptimo se da a temperaturas que oscilan entre los 5 y 17 ºC; esta raza es la que presenta mayor tolerancia al frío.
+                p.mb-0 <b>Raza Guatemalteca:</b> su desarrollo óptimo se da a temperaturas que oscilan entre los 4 y 19 °C. En esta raza se encuentra la variedad Hass, la cual se perfila como una de las potenciales para mercados internacionales (exportación) y con gran potencial productivo en Colombia.
+                p.mb-0 <b>Raza Antillana:</b> su desarrollo óptimo se da a temperaturas que oscilan entre los 18 y 26 °C; esta raza es poco resistente al frío.
+              .row(titulo="Precipitación")
+                p.mb-0 <b>Raza Mexicana:</b> su crecimiento óptimo se da a precipitaciones que estén por encima de los 1.500 mm.
+                p.mb-0 <b>Raza Guatemalteca:</b> el crecimiento óptimo se da con precipitaciones que oscilen entre los 1.000 y 1.500 mm.
+                p.mb-0 <b>Raza Antillana:</b> el crecimiento óptimo se da en zonas cuyas precipitaciones son menores a 1.000 mm.
 
-    p.mb-4(data-aos="fade-right") Los aguacates mexicanos prosperan en climas templados a cálidos, tolerando temperaturas más frías. Los guatemaltecos requieren condiciones templadas y húmedas, con menos resistencia al frío. En cambio, los antillanos son ideales para climas cálidos y húmedos, siendo más sensibles a las heladas. Todos requieren buen drenaje y estabilidad hídrica para un crecimiento óptimo y producción de frutos.
+              .row(titulo="Brillo solar")
+                p.mb-0 Es importante que la zona donde se vaya a establecer el cultivo de aguacate tenga un promedio de 1.500 horas-luz/año.
 
-    .row.justify-content-center.align-items-center(data-aos="zoom-in")
-      .col-lg-4.col-md-6.order-2.order-xl-1.mb-lg-4
-        figure
-          img(src='@/assets/curso/temas/tema1/img-17.png')
-      .col-xl-8.order-1.order-xl-2
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul fnd-3-4")
-          .row(titulo="Temperatura")
-            p.mb-0 <b>Raza Mexicana:</b> su desarrollo óptimo se da a temperaturas que oscilan entre los 5 y 17 ºC; esta raza es la que presenta mayor tolerancia al frío.
-            p.mb-0 <b>Raza Guatemalteca:</b> su desarrollo óptimo se da a temperaturas que oscilan entre los 4 y 19 °C. En esta raza se encuentra la variedad Hass, la cual se perfila como una de las potenciales para mercados internacionales (exportación) y con gran potencial productivo en Colombia.
-            p.mb-0 <b>Raza Antillana:</b> su desarrollo óptimo se da a temperaturas que oscilan entre los 18 y 26 °C; esta raza es poco resistente al frío.
-          .row(titulo="Precipitación")
-            p.mb-0 <b>Raza Mexicana:</b> su crecimiento óptimo se da a precipitaciones que estén por encima de los 1.500 mm.
-            p.mb-0 <b>Raza Guatemalteca:</b> el crecimiento óptimo se da con precipitaciones que oscilen entre los 1.000 y 1.500 mm.
-            p.mb-0 <b>Raza Antillana:</b> el crecimiento óptimo se da en zonas cuyas precipitaciones son menores a 1.000 mm.
-
-          .row(titulo="Brillo solar")
-            p.mb-0 Es importante que la zona donde se vaya a establecer el cultivo de aguacate tenga un promedio de 1.500 horas-luz/año.
-
-          .row(titulo="Humedad relativa")
-            p.mb-2 El aguacate se adapta a climas húmedos y semihúmedos con marcadas diferencias entre las estaciones húmedas y secas. La humedad relativa promedio del ambiente para el cultivo de aguacate debe estar cercana al 70 %, el orden de adaptación de menor a mayor humedad relativa para las tres razas es:
-            ol.lista-ol
-              li.mb-0 
-                span.text-bold 1. 
-                | Mexicana.
-              li.mb-0 
-                span.text-bold 2.
-                | Guatemalteca.
-              li.mb-0 
-                span.text-bold 3. 
-                | Antillana.
-          .row(titulo="Vientos")
-            p El aguacate es un cultivo que no tolera vientos fuertes dado que estos causan defoliación, daño de ramas, caída de flores y frutos, y pueden afectar el proceso de polinización. Si estos se presentan en el área seleccionada para la siembra del cultivo se deben establecer barreras vivas para su protección. El viento no debe ser constante ni alcanzar velocidades por encima de los 20 km/h.
+              .row(titulo="Humedad relativa")
+                p.mb-2 El aguacate se adapta a climas húmedos y semihúmedos con marcadas diferencias entre las estaciones húmedas y secas. La humedad relativa promedio del ambiente para el cultivo de aguacate debe estar cercana al 70 %, el orden de adaptación de menor a mayor humedad relativa para las tres razas es:
+                ol.lista-ol
+                  li.mb-0 
+                    span.text-bold 1. 
+                    | Mexicana.
+                  li.mb-0 
+                    span.text-bold 2.
+                    | Guatemalteca.
+                  li.mb-0 
+                    span.text-bold 3. 
+                    | Antillana.
+              .row(titulo="Vientos")
+                p El aguacate es un cultivo que no tolera vientos fuertes dado que estos causan defoliación, daño de ramas, caída de flores y frutos, y pueden afectar el proceso de polinización. Si estos se presentan en el área seleccionada para la siembra del cultivo se deben establecer barreras vivas para su protección. El viento no debe ser constante ni alcanzar velocidades por encima de los 20 km/h.
 
     Separador
 
@@ -610,54 +611,55 @@
                 figure.fl-box-img
                   img(src='@/assets/curso/temas/tema1/img-21.png' alt='Background Image')
 
-
-
-
-    .row.justify-content-center.align-items-center(data-aos="zoom-in") 
-      .col-lg-12.tg-a
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img.img-72-(src='@/assets/curso/temas/tema1/img-22.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.fnd-7
-            .py-3.pe-5
-              p.mb-0 <b>Colombia</b> registra un crecimiento del 63 % al aumentar la producción de 114 mil toneladas en el año 1996 a 2.5 millones de toneladas en el 2022; este último año con un crecimiento importante de 12.5% respecto al inmediatamente anterior. Resulta sorprendente que Colombia siendo el segundo productor a nivel mundial no exporte aguacate, sino que figura como importador, especialmente por compras realizadas a sus dos vecinos: Venezuela y Ecuador.
-      .col-lg-6.tg-b
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img.img-72(src='@/assets/curso/temas/tema1/img-23.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.fnd-7
-            .py-3.px-2
-              p.mb-0 El mayor crecimiento en la producción del último año lo alcanzó <b>México</b> con 28.17 %, debido a sus mayores niveles de productividad, no obstante, a la disminución del área cultivada.
-      .col-lg-6.tg-b
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img.img-72(src='@/assets/curso/temas/tema1/img-24.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.fnd-7
-            .py-3.px-2
-              p.mb-0 <b>Peru</b>, otro proveedor de importancia de la fruta a nivel mundial fue el tercero en crecimiento de la producción con un aumento en toneladas del 9.65 %.
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .row.justify-content-center.align-items-center.mb-4
-          .col-lg-9
-            p Estos cuatro países representan alrededor del 60 % de la producción mundial de aguacate. En 2022, México fue el principal productor, con un 28.2 % de la producción mundial, seguido de Colombia con un 12.1%, Perú con un 9.7 % y República Dominicana con un 8.2 %
-            p Por lo anterior, resulta importante analizar el comportamiento histórico de la producción de aguacate en los principales países productores y algunos competidores futuros de Colombia en el mercado mundial de esta fruta.
-          .col-lg-3.col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img-25.png')
-        .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
-          .col-auto.pe-2
-            img(src="@/assets/curso/temas/tema1/img-2.png", alt="Icono")
-          .col.px-0
-            h4.mb-0 Distribución geográfica del aguacate.
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-8
-            p Actualmente se cultiva en más de 60 países, casi todos los países de clima cálido y templado, aunque sus mayores cultivos están en los países México, Chile, República Dominicana, Indonesia, Perú, Colombia, Brasil y Estados Unidos. Estos países aportan más del 60% de la producción mundial. El área cosechada en aguacate corresponde al 4.7% del área mundial cosechada en otras frutas tropicales. La producción mundial de esta fruta ha mostrado un crecimiento en la última década concentrada en América latina y el Caribe.
 
-            p En Colombia el área sembrada en aguacate está concentrada en los departamentos de Antioquia especialmente en el oriente antioqueño, en el 2023 fue el principal exportador de aguacate con una participación de 41,4% , Los departamentos de Tolima,  Caldas, Santander, Bolívar, Cesar, Valle del Cauca, y Quindío, representan el 86% del total del área sembrada de aguacate en el país.
-          .col-lg-4.col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img-26.png')
+
+        .row.justify-content-center.align-items-center(data-aos="zoom-in") 
+          .col-lg-12.tg-a
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img.img-72-(src='@/assets/curso/temas/tema1/img-22.png' alt='AvatarTop')
+              .tarjeta.tarjeta--azul.fnd-7
+                .py-3.pe-5
+                  p.mb-0 <b>Colombia</b> registra un crecimiento del 63 % al aumentar la producción de 114 mil toneladas en el año 1996 a 2.5 millones de toneladas en el 2022; este último año con un crecimiento importante de 12.5% respecto al inmediatamente anterior. Resulta sorprendente que Colombia siendo el segundo productor a nivel mundial no exporte aguacate, sino que figura como importador, especialmente por compras realizadas a sus dos vecinos: Venezuela y Ecuador.
+          .col-lg-6.tg-b
+            .tarjeta-avatar-b.tgs.mb-5
+              .tarjeta-avatar-b__img
+                img.img-72(src='@/assets/curso/temas/tema1/img-23.png' alt='AvatarTop')
+              .tarjeta.tarjeta--azul.fnd-7
+                .py-3.px-2
+                  p.mb-0 El mayor crecimiento en la producción del último año lo alcanzó <b>México</b> con 28.17 %, debido a sus mayores niveles de productividad, no obstante, a la disminución del área cultivada.
+          .col-lg-6.tg-b
+            .tarjeta-avatar-b.tgs.mb-5
+              .tarjeta-avatar-b__img
+                img.img-72(src='@/assets/curso/temas/tema1/img-24.png' alt='AvatarTop')
+              .tarjeta.tarjeta--azul.fnd-7
+                .py-3.px-2
+                  p.mb-0 <b>Peru</b>, otro proveedor de importancia de la fruta a nivel mundial fue el tercero en crecimiento de la producción con un aumento en toneladas del 9.65 %.
+
+        .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+          .col-lg-10
+            .row.justify-content-center.align-items-center.mb-4
+              .col-lg-9
+                p Estos cuatro países representan alrededor del 60 % de la producción mundial de aguacate. En 2022, México fue el principal productor, con un 28.2 % de la producción mundial, seguido de Colombia con un 12.1%, Perú con un 9.7 % y República Dominicana con un 8.2 %
+                p Por lo anterior, resulta importante analizar el comportamiento histórico de la producción de aguacate en los principales países productores y algunos competidores futuros de Colombia en el mercado mundial de esta fruta.
+              .col-lg-3.col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema1/img-25.png')
+            .row.pe-lg-3.mb-4.align-items-center(data-aos="zoom-in")
+              .col-auto.pe-2
+                img(src="@/assets/curso/temas/tema1/img-2.png", alt="Icono")
+              .col.px-0
+                h4.mb-0 Distribución geográfica del aguacate.
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-8
+                p Actualmente se cultiva en más de 60 países, casi todos los países de clima cálido y templado, aunque sus mayores cultivos están en los países México, Chile, República Dominicana, Indonesia, Perú, Colombia, Brasil y Estados Unidos. Estos países aportan más del 60% de la producción mundial. El área cosechada en aguacate corresponde al 4.7% del área mundial cosechada en otras frutas tropicales. La producción mundial de esta fruta ha mostrado un crecimiento en la última década concentrada en América latina y el Caribe.
+
+                p En Colombia el área sembrada en aguacate está concentrada en los departamentos de Antioquia especialmente en el oriente antioqueño, en el 2023 fue el principal exportador de aguacate con una participación de 41,4% , Los departamentos de Tolima,  Caldas, Santander, Bolívar, Cesar, Valle del Cauca, y Quindío, representan el 86% del total del área sembrada de aguacate en el país.
+              .col-lg-4.col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema1/img-26.png')
 
 
 

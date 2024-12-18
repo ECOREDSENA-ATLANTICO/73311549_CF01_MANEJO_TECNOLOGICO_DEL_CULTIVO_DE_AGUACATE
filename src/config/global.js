@@ -233,7 +233,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martinez Torres',
-          cargo: 'Diseñor web',
+          cargo: 'Diseñor <i>web</i>',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
